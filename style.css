@@ -177,24 +177,6 @@ Login Box
           box-shadow: 15px 30px 30px rgba(0,0,0,0.32);
 }
 
-.box-info {
-	width: 260px;
-	top: 60px;
-  position: absolute;
-	right: -5px;
-	padding: 15px 15px 15px 30px;
-	background-color: rgba(255,255,255,0.6);
-	border: 1px solid rgba(255,255,255,0.2);
-	z-index: 0;
-	
-	-webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-    
-    -webkit-box-shadow: 15px 30px 30px rgba(0,0,0,0.32);
-    -moz-box-shadow: 15px 30px 30px rgba(0,0,0,0.32);
-    box-shadow: 15px 30px 30px rgba(0,0,0,0.32);
-}
 
 .line-wh {
  	width: 100%;
@@ -227,49 +209,6 @@ button:focus { outline:0; }
   float: right;
 }
 
-.b-info {
-  opacity: 0.5;
-  float: left;
-}
-
-.b-form:hover, 
-.b-info:hover {
-  opacity: 1;
-}
-
-.b-support, .b-cta {
-	width: 100%;
-	padding: 0px 15px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  letter-spacing: -1px;
-  font-size: 16px;
-  line-height: 32px;
-  cursor: pointer;
-    
-  -webkit-border-radius: 16px;
-     -moz-border-radius: 16px;
-          border-radius: 16px;
-}
-
-.b-support {
-  border: #87314e 1px solid;
-  background-color: transparent;
-  color: #87314e;
-  margin: 6px 0;
-}
-
-.b-cta {
-  border: #df405a 1px solid;
-  background-color: #df405a;
-  color: #fff;
-}
-
-.b-support:hover, .b-cta:hover {
-  color: #fff;
-	background-color: #87314e;
-	border: #87314e 1px solid;
-}
 
 .fieldset-body {
     display: table;
